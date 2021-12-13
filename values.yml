@@ -10,6 +10,6 @@ AWS:
   intName: aws_integration
   region: us-west-2
 app:
-  dockerImageName: jfrogserver1.jfrog.io/artifactory/workshop-docker/ecs-docker-compose-workshop-app #change to your servername
+  dockerImageName: jfrogserver1.jfrog.io/workshop-docker/ecs-docker-compose-workshop-app #change to your servername
   dockerFileLocation: workshop-app
   buildName: ecs-docker-compose-workshop-app
